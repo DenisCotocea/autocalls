@@ -1,0 +1,5 @@
+name,email,phone_number
+Test row ,john32@example.com,40712345678
+Invalid User,,$21dsa
+Test Rowjumb,jane12@example.com,40798765432
+invalid UserTest,jane2@example.com,
