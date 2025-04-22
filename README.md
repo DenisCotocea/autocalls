@@ -17,14 +17,20 @@ Follow the steps below to get the project up and running on your local machine.
 
 ### 3. Set up your .env file
 
-### 4.Run database migrations
+### 4. Generate App key
+    php artisan key:generate
+
+### 5.Run database migrations
     php artisan migrate
 
-### 5.Create an admin user (via Filament)
+### 6.Create an admin user (via Filament)
     php artisan make:filament-user
 
-### 6.Seed the database with campaigns and leads
+### 7.Seed the database with campaigns and leads
     php artisan db:seed --class=CampaignAndLeadSeeder
 
-### 7!.Import leads from Excel (CSV) A sample file for import is included in the project root:
+### 8.Create storage link
+    php artisan storage:link
+
+### 9!.Import leads from Excel (CSV) A sample file for import is included in the project root:
     import.csv
